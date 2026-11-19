@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="VIEH Group: open-source security for the AI era">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111c33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3ee6b0"/>
+      <stop offset="1" stop-color="#3ba7ff"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="16" fill="url(#grid)"/>
+  <g transform="translate(96 66)">
+    <path d="M84 0 L160 28 V84 C160 128 128 160 84 172 C40 160 8 128 8 84 V28 Z"
+          fill="none" stroke="url(#accent)" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M52 88 L76 112 L120 64" fill="none" stroke="url(#accent)" stroke-width="9"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="320" y="138" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="64"
+        font-weight="700" fill="#f2f5fb" letter-spacing="1">VIEH Group</text>
+  <text x="322" y="186" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="26"
+        fill="#9fb0cc">Open-source security for the AI era</text>
+  <rect x="322" y="212" width="120" height="4" rx="2" fill="url(#accent)"/>
+  <text x="322" y="252" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="18"
+        fill="#6f83a6">supply chain · AI agents · editor extensions · dependency updates</text>
+</svg>
