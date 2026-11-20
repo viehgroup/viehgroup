@@ -4,7 +4,7 @@
 
 **VIEH Group** builds free, open-source security tools. Our current focus is the new attack
 surface that AI and modern development created: coding agents, hidden prompts, package
-registries, editor extensions and dependency updates.
+registries, editor extensions and dependency updates, plus urgent fixes like the 2026 nginx flaws.
 
 Every tool is MIT-licensed, has no dependencies, and is tested against real-world attacks and real packages.
 
@@ -12,6 +12,7 @@ Every tool is MIT-licensed, has no dependencies, and is tested against real-worl
 
 | Tool | What it stops |
 |---|---|
+| **[nginxwatch](https://github.com/viehgroup/nginxwatch)** | Exploitable nginx. Checks the version, the configuration and your distribution's patches against every nginx.org advisory, including the November 2026 HTTP/2 remote code execution flaws. |
 | **[ghostwatch](https://github.com/viehgroup/ghostwatch)** | Hidden instructions for AI. Finds text people can't see but AI reads (white-on-white, tiny fonts, invisible PDF layers) in documents, web pages and GitHub issues, and flags agent workflows a stranger could hijack. |
 | **[bumpwatch](https://github.com/viehgroup/bumpwatch)** | Hijacked package updates. Compares each release with the one it replaces and flags new install scripts, startup hooks, hidden code and missing provenance, right on the Dependabot pull request. |
 | **[extwatch](https://github.com/viehgroup/extwatch)** | Backdoored VS Code, Cursor and Windsurf extensions. Checks what extensions do, compares them with the official release, and hunts for leftovers. |
