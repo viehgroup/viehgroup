@@ -12,6 +12,7 @@ Every tool is MIT-licensed, has no dependencies, and is tested against real-worl
 
 | Tool | What it stops |
 |---|---|
+| **[scriptwatch](https://github.com/viehgroup/scriptwatch)** | Hacked third-party scripts. Watches the scripts your website loads and warns when one is new, changes or starts skimming cards, as in the November 2026 Optimizely attack on Zoom, the BBC and 176 other sites. |
 | **[nginxwatch](https://github.com/viehgroup/nginxwatch)** | Exploitable nginx. Checks the version, the configuration and your distribution's patches against every nginx.org advisory, including the November 2026 HTTP/2 remote code execution flaws. |
 | **[ghostwatch](https://github.com/viehgroup/ghostwatch)** | Hidden instructions for AI. Finds text people can't see but AI reads (white-on-white, tiny fonts, invisible PDF layers) in documents, web pages and GitHub issues, and flags agent workflows a stranger could hijack. |
 | **[bumpwatch](https://github.com/viehgroup/bumpwatch)** | Hijacked package updates. Compares each release with the one it replaces and flags new install scripts, startup hooks, hidden code and missing provenance, right on the Dependabot pull request. |
